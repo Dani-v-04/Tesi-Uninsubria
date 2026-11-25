@@ -9,5 +9,5 @@ Progetto di tirocinio e tesi su MedSigLIP (modello di Google per immagini e test
 - data/ : dataset, non versionati (stanno su Google Drive)
 
 ## Ambiente
-Esperimenti eseguiti su Google Colab con GPU <Tesla T4>, Python <3>.
+Esperimenti eseguiti su Google Colab con GPU Tesla T4, Python.
 Versioni delle librerie in requirements.txt. Dati e output pesanti su Google Drive.

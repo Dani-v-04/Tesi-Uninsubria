@@ -20,7 +20,7 @@ Registro delle attività svolte finora, in ordine cronologico. Per ogni attivit�
 | 20/11 | Dataset PneumoniaMNIST (`size=224`): scarico e conteggio delle classi | `08_dataset_pneumonia` | Train 4708, val 524, test 624 immagini; polmonite 74,2% in train e val, 62,5% nel test |
 | 20/11 | Calcolo e salvataggio su Drive degli embedding di MedSigLIP per tutte le 5856 radiografie, con controllo di correttezza | `09_embedding_pneumonia` | Nessuna differenza apprezzabile con `image_embeds` (5,3 × 10⁻⁷); circa 32 minuti di calcolo |
 | 22/11 | Linear probe: regressione logistica (scikit-learn) sugli embedding; scelta della soglia sul val; valutazione sul test con soglie fissate prima | `09_embedding_pneumonia` | AUC train 0,9972, val 0,9967, test 0,9925; test con soglia 0: recall 0,992, specificità 0,863 |
-| 24/11 | Documentazione: aggiornamento di questo registro e stesura di una dispensa dei concetti studiati (`docs/dispensa_concetti.md`) | – | Due documenti nel repository |
+| 24/11 | Documentazione: aggiornamento di questo registro e stesura di una dispensa dei concetti studiati (`notes/Appunti.md`) | – | Due documenti nel repository |
 
 ## Ricerca bibliografica
 
