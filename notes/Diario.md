@@ -276,15 +276,17 @@ Questo diario descrive nel dettaglio le attività svolte, sessione per sessione,
 
 Ho raccolto 8 lavori su MedSigLIP e sui modelli da cui deriva, più CLIP. Li ho riassunti in una tabella nel documento "Studio preliminare di MedSigLIP e fondamenti di apprendimento automatico".
 
-| Lavoro | Anno | Come usa MedSigLIP | Risultato principale |
-|---|---|---|---|
-| MedGemma Technical Report (Sellergren et al.) | 2025 | Lavoro di riferimento del modello | La model card indica di citare questo |
-| SigLIP (Zhai et al.) | 2023 | Modello di partenza | Addestramento immagine-testo con loss sigmoidea |
-| ELIXR (Xu et al.) | 2023 | Termine di confronto | Zero-shot su radiografie: AUC media 0,824 contro 0,844 di MedSigLIP (model card) |
-| Li et al., "From Embeddings to Accuracy" | 2025 | Estrattore di embedding con classificatore sopra | 8842 radiografie, 7 classi: MedSigLIP con MLP mAUC 91,0%; MedImageInsight 93,1%; DenseNet121 addestrata per intero 87,2% |
-| Demiroglu et al. | 2025 | Parte congelata (non riaddestrata) | Qualità di TC a basso dosaggio, con indicazioni scritte inserite nel modello |
-| Kim e Jeong, LaGuadia | 2026 | "Insegnante" per modelli più piccoli | Guida semantica per modelli di patologia più leggeri |
-| Jabin e Ahmad | 2026 | Estrae feature da vetrini | Nella predizione dell'espressione genica, tra cinque modelli, MedSigLIP va in modo moderato |
-| Model card di MedSigLIP (Google, Hugging Face) | – | Descrizione ufficiale | AUC zero-shot media 0,844 sulle radiografie del torace |
+| Lavoro | Anno | Come usa MedSigLIP | Risultato principale | Link |
+|---|---|---|---|---|
+| MedGemma Technical Report (Sellergren et al.) | 2025 | Lavoro di riferimento del modello | La model card indica di citare questo | [arXiv](https://arxiv.org/abs/2507.05201) |
+| SigLIP (Zhai et al.) | 2023 | Modello di partenza | Addestramento immagine-testo con loss sigmoidea | [arXiv](https://arxiv.org/abs/2303.15343) |
+| ELIXR (Xu et al.) | 2023 | Termine di confronto | Zero-shot su radiografie: AUC media 0,824 contro 0,844 di MedSigLIP (model card) | [arXiv](https://arxiv.org/abs/2308.01317) |
+| Li et al., "From Embeddings to Accuracy" | 2025 | Estrattore di embedding con classificatore sopra | 8842 radiografie, 7 classi: MedSigLIP con MLP mAUC 91,0%; MedImageInsight 93,1%; DenseNet121 addestrata per intero 87,2% | [rivista](https://doi.org/10.1007/s10278-025-01747-5), [arXiv](https://arxiv.org/abs/2505.10823) |
+| Demiroglu et al. | 2025 | Parte congelata (non riaddestrata) | Qualità di TC a basso dosaggio, con indicazioni scritte inserite nel modello | [arXiv](https://arxiv.org/abs/2511.12256) |
+| Kim e Jeong, LaGuadia | 2026 | "Insegnante" per modelli più piccoli | Guida semantica per modelli di patologia più leggeri | [arXiv](https://arxiv.org/abs/2607.11257) |
+| Jabin e Ahmad | 2026 | Estrae feature da vetrini | Nella predizione dell'espressione genica, tra cinque modelli, MedSigLIP va in modo moderato | [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.03.02.709012v1) |
+| Model card di MedSigLIP (Google, Hugging Face) | – | Descrizione ufficiale | AUC zero-shot media 0,844 sulle radiografie del torace | [Hugging Face](https://huggingface.co/google/medsiglip-448) |
 
 I risultati sono quelli riportati dagli autori. Il lavoro più vicino al mio è Li et al. (embedding + classificatore sopra, come nelle sessioni 9 e 10).
+
+CLIP (Radford et al., 2021): [arXiv](https://arxiv.org/abs/2103.00020)
